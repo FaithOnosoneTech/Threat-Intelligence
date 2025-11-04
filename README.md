@@ -14,3 +14,10 @@ This repository holds information about my threat intelligence project on Globe 
 
 ### Discovery Using Google Dorks
 - URL list with dork used =  `Site: portal.globemedia.news “Interesting URL”` (see image 2ai: [Interesting URL](https://raw.githubusercontent.com/FaithOnosoneTech/Threat-Intelligence/d7b519f340c1ab9ad5851705c080e70fa839bf32/2ai..png))
+
+  
+### Discovery Using Harvester And Shodan
+
+- **TheHarvester**: enumerate subdomains & any public e‐mail patterns: This was done in the terminal of Kali VM using the command: **`theHarvester -d portal.globemedia.news -b all --shodan -l 1000 -f portal.globemedia.news.txt`** (see images 3ai: [Output](https://github.com/FaithOnosoneTech/Threat-Intelligence/blob/main/3ai..png?raw=true)  & 3aii: [Subdomains and Public E-mails](https://github.com/FaithOnosoneTech/Threat-Intelligence/blob/main/3aii..png?raw=true))
+
+- Shodan free: pull IP, port, and banner data: This was done by searching portal.globemedia.news on www.shodan.io on search engine (see screenshots 3bi, 3bii, 3biii & 3biv for result)
