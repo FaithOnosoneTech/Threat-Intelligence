@@ -10,3 +10,7 @@ This repository holds information about my threat intelligence project on Globe 
 - Target domain: portal.globemedia.news and subdomains
 -	Passive only: no vulnerability scans, brute‐force, password trials
 - Signed “OSINT Rules of Engagement & Checklist” [OSINT RULE](https://raw.githubusercontent.com/FaithOnosoneTech/Threat-Intelligence/ce9854de683230994b2507323da7b6d89eac9cb2/1ai..png) and [Signed CHECKLIST](https://raw.githubusercontent.com/FaithOnosoneTech/Threat-Intelligence/ce9854de683230994b2507323da7b6d89eac9cb2/1aii..png)
+
+
+### Discovery Using Google Dorks
+- URL list with dork used `Site: portal.globemedia.news “Interesting URL”` (see result: [Interesting URL](https://raw.githubusercontent.com/FaithOnosoneTech/Threat-Intelligence/d7b519f340c1ab9ad5851705c080e70fa839bf32/2ai..png))
