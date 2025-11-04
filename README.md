@@ -23,6 +23,20 @@ This repository holds information about my threat intelligence project on Globe 
 - **Shodan free** to pull IP, port, and banner data: This was done by searching `portal.globemedia.news` on www.shodan.io on search engine (see images [3bi](https://github.com/FaithOnosoneTech/Threat-Intelligence/blob/main/3bi..png?raw=true), [3bii](https://github.com/FaithOnosoneTech/Threat-Intelligence/blob/main/3bii..png?raw=true), [3biii](https://github.com/FaithOnosoneTech/Threat-Intelligence/blob/main/3biii..png?raw=true) & [3biv](https://github.com/FaithOnosoneTech/Threat-Intelligence/blob/main/3biv..png?raw=true) for results).
 
 
+### Maltego Visualization
+- Import domain/IP list into Maltego Community Edition
+•	Graph relationships: `Domain ↔ IP ↔ any harvested e‐mail artifacts`
+•	Exported graph image (PNG) (graph image not uploaded as it contains company's vital information)
+
+
+### Validation
+•	DNS lookup / ping each subdomain (15) generated via the harvester using the command:
+i.	***`nslookup subdomain`*** (see images 4ai & 4aii for result)
+ii.	***`ping -c -4 subdomain`*** (see images 4ai & 4aii for result).
+Or 
+do this by first saving the entire subdomains in a file via nano using python code. Then run the commands: ***`nano check_domains.sh`*** or ***`./check_domains.sh > portal.globemedia.news-subdomains results.txt`***
+•	Discover and Mark entries as “Live” vs. “Stale/Unresolved” (see screenshots 4bi & 4bii for result)
+
 
 
 
