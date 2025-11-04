@@ -30,12 +30,24 @@ This repository holds information about my threat intelligence project on Globe 
 
 
 ### Validation
-•	DNS lookup / ping each subdomain (15) generated via the harvester using the command:
-i.	***`nslookup subdomain`*** (see images 4ai & 4aii for result)
-ii.	***`ping -c -4 subdomain`*** (see images 4ai & 4aii for result).
-Or 
-do this by first saving the entire subdomains in a file via nano using python code. Then run the commands: ***`nano check_domains.sh`*** or ***`./check_domains.sh > portal.globemedia.news-subdomains results.txt`***
-•	Discover and Mark entries as “Live” vs. “Stale/Unresolved” (see screenshots 4bi & 4bii for result)
+-	DNS lookup / ping each subdomain (15) generated via the harvester using the command:
+    - ***`nslookup subdomain`*** (see images [4ai](https://github.com/FaithOnosoneTech/Threat-Intelligence/blob/main/4ai.png?raw=true) & [4aii](https://github.com/FaithOnosoneTech/Threat-Intelligence/blob/main/4aii..png?raw=true) for result)
+    - ***`ping -c -4 subdomain`*** (see images [4ai](https://github.com/FaithOnosoneTech/Threat-Intelligence/blob/main/4ai.png?raw=true) & [4aii](https://github.com/FaithOnosoneTech/Threat-Intelligence/blob/main/4aii..png?raw=true) for result).
+
+    or
+
+    do this by first saving the entire subdomains in a file via nano using python code. Then run the commands:
+ 	
+    ***`nano check_domains.sh`***  and
+ 	
+    ***`./check_domains.sh > portal.globemedia.news-subdomains results.txt`***
+
+- Discover and Mark entries as `“Live” vs. “Stale/Unresolved”` (see screenshots [4bi](https://github.com/FaithOnosoneTech/Threat-Intelligence/blob/main/4bi..png?raw=true) & [4bii](https://github.com/FaithOnosoneTech/Threat-Intelligence/blob/main/4bii..png?raw=true) for result)
+    
+
+    
+
+    
 
 
 
