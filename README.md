@@ -42,30 +42,21 @@ This repository holds information about my threat intelligence project on Globe 
  	
     ***`./check_domains.sh > portal.globemedia.news-subdomains results.txt`***
 
-- Discover and Mark entries as `“Live” vs. “Stale/Unresolved”` (see screenshots [4bi](https://github.com/FaithOnosoneTech/Threat-Intelligence/blob/main/4bi..png?raw=true) & [4bii](https://github.com/FaithOnosoneTech/Threat-Intelligence/blob/main/4bii..png?raw=true) for result)
-    
+- Discover and Mark entries as `“Live” vs. “Stale/Unresolved”` (see images [4bi](https://github.com/FaithOnosoneTech/Threat-Intelligence/blob/main/4bi..png?raw=true) & [4bii](https://github.com/FaithOnosoneTech/Threat-Intelligence/blob/main/4bii..png?raw=true) for result).
+
+
+### Executive Summary/ Observations
+
+- see image [5ai](https://github.com/FaithOnosoneTech/Threat-Intelligence/blob/main/5ai..png?raw=true)
+
+
+### Recommendations
+
+- see image [6ai](https://github.com/FaithOnosoneTech/Threat-Intelligence/blob/main/6ai..png?raw=true)
+
+
+### Conclusion
+
+- See image [7ai](https://github.com/FaithOnosoneTech/Threat-Intelligence/blob/main/7ai..png?raw=true)
 
     
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
